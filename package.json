@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "d,ependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.12.10",
     "morgan": "^1.10.0",
