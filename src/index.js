@@ -5,9 +5,9 @@ const mongoose = require('mongoose');
 const app = express();
 
 // Database Setup
-
 mongoose.connect("mongodb://localhost:27017/upload", {
-	useNewUrlParser: true
+	useNewUrlParser: true,
+	useUnifiedTopology: true
 });
 
 app.use(express.json());
